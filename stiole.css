@@ -123,11 +123,55 @@ header {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
 }
 #icon {
   color: rgb(70, 169, 250);
   font-size: 60px;
   margin-left: 40%;
+}
+
+.software {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 30%;
+}
+#featuress {
+  justify-content: center;
+  display: flex;
+}
+.feature {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.feature img{
+  width: 100%;
+  height: 100%;
+}
+.feature h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #343434;
+}
+.feature p {
+  padding-top: 10px;
+  margin: 0 0 10px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #5e5e5e;
+  font-size: 15px;
+}
+.feature i {
+  color: #28a7e9;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.softwaretwo {
+  background-color: #fff;
+  width: 100%;
+  height: 30%;
 }
