@@ -252,6 +252,11 @@ header {
   border-color: #2e6da4;
   border: 1px solid;
   padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+.download:hover{
+  background-color: #286194;
+  transition: 1s;
 }
 #dwn {
   color: #fff;
@@ -267,11 +272,12 @@ header {
   z-index: 2;
   position: relative;
 }
-#contact{
+#contact {
   display: flex;
 }
-#adress{
+#adress {
   padding-top: 60px;
+  margin-right: 10px;
 }
 #adress h2 {
   color: #fff;
@@ -279,7 +285,55 @@ header {
 #adress p {
   color: #fff;
 }
-#adress i{
+#adress i {
   background-color: #fff;
   border-radius: 50%;
+}
+.send {
+  margin-top: 15%;
+  margin-left: 10px;
+  width: 50%;
+}
+.you {
+  width: 43%;
+  height: 45px;
+}
+.name {
+  margin-bottom: 20px;
+}
+#dick {
+  margin-right: 10px;
+}
+#emnail {
+  margin-left: 10px;
+}
+.subject {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 45px;
+}
+#message {
+  height: 80px;
+  width: 90%;
+}
+.sendbtn {
+  width: 60%;
+  height: 45px;
+  margin-top: 20px;
+  background: #28a7e9;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+.sendbtn:hover {
+  background-color: #247aa5;
+  transition: 1s;
+}
+.titles{
+  height: 5vh;
+}
+#lastwords p{
+text-align: center;
 }
